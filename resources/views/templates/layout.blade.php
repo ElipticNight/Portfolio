@@ -8,6 +8,9 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        @yield('content')
+        <div id="app">
+            @include('includes/navbar')
+            @yield('content')
+        </div>
     </body>
 </html>

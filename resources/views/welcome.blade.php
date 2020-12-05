@@ -1,8 +1,5 @@
-@extends('templates/navbar')
+@extends('templates/layout')
 
 @section('content')
-    <div id="app">
-        <testone></testone>
-        <testtwo>></testtwo>
-    </div>
+    <example-component></example-component>
 @endsection
