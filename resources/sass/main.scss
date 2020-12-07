@@ -1,3 +1,27 @@
-#navbar{
-    background-color: blue;
+.header{
+    background-color: #0c4433;
+    .navbar{
+        display: flex;
+        float: right;
+        .navbar-links{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            li{
+                float: left;
+                a{
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 5px 10px 5px 10px;
+                    margin: 5px;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
 }

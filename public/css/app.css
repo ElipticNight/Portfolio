@@ -1,4 +1,40 @@
-#navbar {
-  background-color: blue;
+.header {
+  background-color: #0c4433;
+}
+
+.header .navbar {
+  display: flex;
+  float: right;
+}
+
+.header .navbar .navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header .navbar .navbar-links li {
+  float: left;
+}
+
+.header .navbar .navbar-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.header .navbar .navbar-links li a:hover {
+  background-color: red;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #152722;
 }
 
