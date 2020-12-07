@@ -10,9 +10,7 @@
     </head>
     <body>
         <div id="app">
-            <div class="header">
-                @include('includes/navbar')
-            </div>
+            @include('includes/header')
             @yield('content1')
         </div>
     </body>

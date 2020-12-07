@@ -1,8 +1,17 @@
 .header{
     background-color: #0c4433;
+    .logo{
+        display: flex;
+        float: left;
+        padding: 10px 40px 10px 40px;
+        margin: 20px 30px 20px 30px;
+        border: solid 3px green;
+        color: white;
+    }
     .navbar{
         display: flex;
         float: right;
+        padding-right: 20px;
         .navbar-links{
             list-style-type: none;
             margin: 0;
@@ -14,8 +23,9 @@
                     display: block;
                     color: white;
                     text-align: center;
-                    padding: 5px 10px 5px 10px;
-                    margin: 5px;
+                    padding: 10px 40px 10px 40px;
+                    margin: 20px 30px 20px 30px;
+                    border: solid 3px green;
                     text-decoration: none;
                     &:hover{
                         background-color: red;
