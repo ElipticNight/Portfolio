@@ -9,9 +9,12 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div id="app">
-            @include('includes/header')
-            @yield('content1')
-        </div>
+        <main>
+            <div id="app">
+                @include('includes/header')
+                @yield('content')
+                @include('includes/footer')
+            </div>
+        </main>
     </body>
 </html>
