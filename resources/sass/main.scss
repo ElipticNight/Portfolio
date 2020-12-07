@@ -1,8 +1,8 @@
 .header{
     display: flex;
-    height: 50px;
+    height: 7vh;
     background-color: #0c4433;
-    border-bottom: solid 3px green;
+    border-bottom: solid 0.25vh green;
     .logo{
         display: flex;
         flex: 1;
@@ -35,5 +35,20 @@
                 }
             }
         }
+    }
+}
+.hero-banner{
+    background-color: #152722;
+    height: 92.75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        padding: 7% 20% 7% 20%;
+        border: solid 0.25vh green;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
     }
 }

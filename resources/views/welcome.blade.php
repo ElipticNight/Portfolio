@@ -1,5 +1,9 @@
 @extends('templates/layout')
 
 @section('content')
-    <example-component></example-component>
+    <div class="hero-banner">
+        <div class="title">
+            Aidan Byrne
+        </div>
+    </div>
 @endsection
