@@ -3,7 +3,8 @@
 @section('content')
     <div class="hero-banner">
         <div class="title">
-            Aidan Byrne
+            <h1>Aidan Byrne</h1>
+            <h3>Full Stack Web Developer</h3>
         </div>
     </div>
 @endsection
