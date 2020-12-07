@@ -1,35 +1,38 @@
 .header{
+    display: flex;
     background-color: #0c4433;
+    height: 50px;
+    border-bottom: solid 3px green;
     .logo{
         display: flex;
-        float: left;
-        padding: 10px 40px 10px 40px;
-        margin: 20px 30px 20px 30px;
-        border: solid 3px green;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
         color: white;
+    }
+    .filler{
+        display: flex;
+        flex: 1;
     }
     .navbar{
         display: flex;
-        float: right;
-        padding-right: 20px;
-        .navbar-links{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            li{
-                float: left;
-                a{
-                    display: block;
-                    color: white;
-                    text-align: center;
-                    padding: 10px 40px 10px 40px;
-                    margin: 20px 30px 20px 30px;
-                    border: solid 3px green;
-                    text-decoration: none;
-                    &:hover{
-                        background-color: red;
-                    }
+        flex: 1;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        li{
+            a{
+                display: flex;
+                color: white;
+                align-items: center;
+                text-align: center;
+                height: 100%;
+                padding: 0px 35px 0px 35px;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
                 }
             }
         }

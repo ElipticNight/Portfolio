@@ -2,11 +2,10 @@
     <div class="logo">
         Aidan Byrne
     </div>
-    <div class="navbar">
-        <ul class="navbar-links">
-            <li><a href="#">one</a></li>
-            <li><a href="#">two</a></li>
-            <li><a href="#">three</a></li>
-        </ul>
-    </div>
+    <div class="filler"></div>
+    <ul class="navbar">
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 </div>

@@ -1,45 +1,45 @@
 .header {
+  display: flex;
   background-color: #0c4433;
+  height: 50px;
+  border-bottom: solid 3px green;
 }
 
 .header .logo {
   display: flex;
-  float: left;
-  padding: 10px 40px 10px 40px;
-  margin: 20px 30px 20px 30px;
-  border: solid 3px green;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   color: white;
+}
+
+.header .filler {
+  display: flex;
+  flex: 1;
 }
 
 .header .navbar {
   display: flex;
-  float: right;
-  padding-right: 20px;
-}
-
-.header .navbar .navbar-links {
+  flex: 1;
+  justify-content: space-evenly;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.header .navbar .navbar-links li {
-  float: left;
-}
-
-.header .navbar .navbar-links li a {
-  display: block;
+.header .navbar li a {
+  display: flex;
   color: white;
+  align-items: center;
   text-align: center;
-  padding: 10px 40px 10px 40px;
-  margin: 20px 30px 20px 30px;
-  border: solid 3px green;
+  height: 100%;
+  padding: 0px 35px 0px 35px;
   text-decoration: none;
 }
 
-.header .navbar .navbar-links li a:hover {
-  background-color: red;
+.header .navbar li a:hover {
+  text-decoration: underline;
 }
 
 html,
