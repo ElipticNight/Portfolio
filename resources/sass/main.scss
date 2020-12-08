@@ -81,3 +81,41 @@
         }
     }
 }
+
+.about-me-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    .title{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        h1{
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.contact-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    .title{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        h1{
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}

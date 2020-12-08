@@ -10,6 +10,7 @@
     <hr>
     <div class="projects-section">
         <h1>projects</h1>
+        <h3><a href="#">View all projects.</a></h3>
         <div class="projects">
             <div class="project"></div>
             <div class="project"></div>
@@ -17,6 +18,19 @@
             <div class="project"></div>
         </div>
         <h1></h1>
-        <hr>
+    </div>
+    <hr>
+    <div class="about-me-section">
+        <div class="title">
+            <h1>About me</h1>
+            <h3>Fusce elementum lectus tortor, a iaculis lectus tincidunt at. Nullam ultricies ac ante ac sagittis. Mauris rhoncus in purus et scelerisque. Ut sodales, erat eget. </h3>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-section">
+        <div class="title">
+            <h1>Contact</h1>
+            <h3>Fusce elementum lectus tortor, a iaculis lectus tincidunt at. Nullam ultricies ac ante ac sagittis. Mauris rhoncus in purus et scelerisque. Ut sodales, erat eget. </h3>
+        </div>
     </div>
 @endsection

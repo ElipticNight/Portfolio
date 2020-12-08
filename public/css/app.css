@@ -90,6 +90,48 @@
   border: 5px solid green;
 }
 
+.about-me-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-section .title {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.about-me-section .title h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.contact-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .title {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.contact-section .title h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
 html {
   scroll-behavior: smooth;
 }
