@@ -43,7 +43,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #152722;
     .title{
         height: 40%;
         width: 50%;
@@ -55,6 +54,30 @@
         h1{
             font-size: 3em;
             margin-bottom: 1em;
+        }
+    }
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3em;
+        color: white;
+        margin: 50px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-gap: 2vw 2vw;
+        .project{
+            width: 35vw;
+            height: 35vh;
+            background-color: darkblue;
+            border: 5px solid green;
         }
     }
 }
