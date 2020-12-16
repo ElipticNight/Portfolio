@@ -10,7 +10,7 @@
     <hr>
     <div class="projects-section">
         <h1>projects</h1>
-        <h3><a href="#">View all projects.</a></h3>
+        <h3><a href="/projects">View all projects.</a></h3>
         <div class="projects">
             <div class="project"></div>
             <div class="project"></div>
