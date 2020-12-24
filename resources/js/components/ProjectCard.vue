@@ -8,12 +8,12 @@
                 <img src="https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2-1024x684.jpg" alt="">
             </div>
             <div class="description">
-                <p>Fusce elementum lectus tortor, a iaculis lectus tincidunt at. Nullam ultricies ac ante ac sagittis. Mauris rhoncus in purus et scelerisque. Ut sodales, erat eget.</p>
+                Fusce elementum lectus tortor, a iaculis lectus tincidunt at. Nullam ultricies ac ante ac sagittis. Mauris rhoncus in purus et scelerisque. Ut sodales, erat eget. 
             </div>
         </div>
         <div class="buttons">
-            <input type="button" value="one">
-            <input type="button" value="two">
+            <input type="button" value="one" class="button source">
+            <input type="button" value="two" class="button live">
         </div>
     </div>
 </template>
@@ -25,39 +25,43 @@ export default {
 <style lang="scss">
     .project{
         display: grid;
-        grid-template-rows: 25% 50% 25%;
+        grid-template-rows: 20% 60% 20%;
         width: 35vw;
         height: 35vh;
-        background-color: darkblue;
+        background-color: lightblue;
         border: 5px solid green;
         .title{
             display: grid;
             justify-content: center;
-            background-color: red;
+            align-content: center;
         }
         .content{
             display: grid;
             grid-template-columns: 50% 50%;
+            overflow: hidden;
             .image{
-                background-color: yellow;
                 img{
                     max-width:100%;
                     max-height:100%;
                 }
             }
             .description{
-                display: grid;
-                justify-content: center;
-                background-color: green;
+                text-align: center;
             }
         }
         .buttons{
             display: grid;
+            justify-items: center;
+            align-items: center;
             grid-template-columns: 50% 50%;
-            background-color: gray;
+            .button{
+                height: 25px;
+                width: 100px;
+            }
         }
         &:hover{
             cursor:pointer;
+            box-shadow: 0px 0px 9px 4px #747DE8;
         }
     }
 </style>
