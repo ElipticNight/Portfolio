@@ -25,7 +25,7 @@ export default {
 <style lang="scss">
     .project{
         display: grid;
-        grid-template-rows: 20% 60% 20%;
+        grid-template-rows: 1fr 3fr 1fr;
         width: 35vw;
         height: 35vh;
         background-color: lightblue;
@@ -37,7 +37,10 @@ export default {
         }
         .content{
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 1fr 1fr;
+            padding-left: 10px;
+            padding-right: 10px;
+            column-gap: 10px;
             overflow: hidden;
             .image{
                 img{
@@ -53,7 +56,7 @@ export default {
             display: grid;
             justify-items: center;
             align-items: center;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 1fr 1fr;
             .button{
                 height: 25px;
                 width: 100px;
