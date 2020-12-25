@@ -1,14 +1,14 @@
 <template>
     <div class="project">
         <div class="title">
-            <h2>Project One</h2>
+            <h2>Tic Tac Toe</h2>
         </div>
         <div class="content">
             <div class="image">
-                <img src="https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2-1024x684.jpg" alt="">
+                <img src="https://content.instructables.com/ORIG/FAN/BM5E/HPBPOMS8/FANBM5EHPBPOMS8.png?frame=1" alt="">
             </div>
             <div class="description">
-                Fusce elementum lectus tortor, a iaculis lectus tincidunt at. Nullam ultricies ac ante ac sagittis. Mauris rhoncus in purus et scelerisque. Ut sodales, erat eget. 
+                This Project is tic tac toe. It has an AI you can play against.
             </div>
         </div>
         <div class="buttons">
@@ -44,8 +44,8 @@ export default {
             overflow: hidden;
             .image{
                 img{
-                    max-width:100%;
-                    max-height:100%;
+                    max-width: 100%;
+                    max-height: 100%;
                 }
             }
             .description{

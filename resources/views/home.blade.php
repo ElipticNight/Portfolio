@@ -12,10 +12,7 @@
         <h1>projects</h1>
         <h3><a href="/projects">View all projects.</a></h3>
         <div class="projects">
-            <project-card></project-card>
-            <project-card></project-card>
-            <project-card></project-card>
-            <project-card></project-card>
+            <tic-tac-toe></tic-tac-toe>
         </div>
         <h1></h1>
     </div>
