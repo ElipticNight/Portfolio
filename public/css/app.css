@@ -1,8 +1,8 @@
 .header {
   display: flex;
   height: 7vh;
-  background-color: #0c4433;
-  border-bottom: solid 0.25vh green;
+  background-color: #00054f;
+  border-bottom: solid 0.25vh #000000;
 }
 
 .header .logo {
@@ -135,6 +135,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #152722;
+  background-color: #1a1830;
 }
 
