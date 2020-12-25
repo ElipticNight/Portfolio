@@ -12,8 +12,8 @@
             </div>
         </div>
         <div class="buttons">
-            <input type="button" value="one" class="button source">
-            <input type="button" value="two" class="button live">
+            <input type="button" value="View Live" class="button live">
+            <input type="button" value="View Source" class="button source">
         </div>
     </div>
 </template>
@@ -62,10 +62,10 @@ export default {
                 width: 100px;
             }
             .source{
-                grid-column-start: 2;
+                grid-column-start: 3;
             }
             .live{
-                grid-column-start: 3;
+                grid-column-start: 2;
             }
         }
         &:hover{
