@@ -28,8 +28,8 @@ export default {
         grid-template-rows: 1fr 3fr 1fr;
         width: 35vw;
         height: 35vh;
-        background-color: lightblue;
-        border: 5px solid green;
+        background-color: #0e0667;
+        border: 5px solid #00097a;
         .title{
             display: grid;
             justify-content: center;
@@ -70,7 +70,7 @@ export default {
         }
         &:hover{
             cursor:pointer;
-            box-shadow: 0px 0px 9px 4px #747DE8;
+            box-shadow: 0px 0px 9px 4px #FC3636;
         }
     }
 </style>
