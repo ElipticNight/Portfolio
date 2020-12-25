@@ -12,14 +12,21 @@
             </div>
         </div>
         <div class="buttons">
-            <input type="button" value="View Live" class="button live">
-            <input type="button" value="View Source" class="button source">
+            <input @click="OpenLive" type="button" value="View Live" class="button live">
+            <input @click="OpenSource" type="button" value="View Source" class="button source">
         </div>
     </div>
 </template>
 <script>
 export default {
-    
+    methods: {
+        OpenLive: function() {
+            window.open('https://tictactoe.aidanbyrne.tech', "_blank");
+        },
+        OpenSource: function() {
+            window.open('https://github.com/ElipticNight/tic-tac-toe', "_blank");
+        }
+    }
 }
 </script>
 <style lang="scss">

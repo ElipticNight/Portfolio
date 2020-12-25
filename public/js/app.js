@@ -1927,7 +1927,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    OpenLive: function OpenLive() {
+      window.open('https://tictactoe.aidanbyrne.tech', "_blank");
+    },
+    OpenSource: function OpenSource() {
+      window.open('https://github.com/ElipticNight/tic-tac-toe', "_blank");
+    }
+  }
+});
 
 /***/ }),
 
@@ -20224,46 +20233,56 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "project" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c("div", { staticClass: "buttons" }, [
+      _c("input", {
+        staticClass: "button live",
+        attrs: { type: "button", value: "View Live" },
+        on: { click: _vm.OpenLive }
+      }),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "button source",
+        attrs: { type: "button", value: "View Source" },
+        on: { click: _vm.OpenSource }
+      })
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "project" }, [
-      _c("div", { staticClass: "title" }, [_c("h2", [_vm._v("Tic Tac Toe")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "content" }, [
-        _c("div", { staticClass: "image" }, [
-          _c("img", {
-            attrs: {
-              src:
-                "https://content.instructables.com/ORIG/FAN/BM5E/HPBPOMS8/FANBM5EHPBPOMS8.png?frame=1",
-              alt: ""
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "description" }, [
-          _c("p", [
-            _vm._v(
-              "This Project is tic tac toe. It has an AI you can play against."
-            )
-          ])
-        ])
+    return _c("div", { staticClass: "title" }, [
+      _c("h2", [_vm._v("Tic Tac Toe")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "content" }, [
+      _c("div", { staticClass: "image" }, [
+        _c("img", {
+          attrs: {
+            src:
+              "https://content.instructables.com/ORIG/FAN/BM5E/HPBPOMS8/FANBM5EHPBPOMS8.png?frame=1",
+            alt: ""
+          }
+        })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "buttons" }, [
-        _c("input", {
-          staticClass: "button live",
-          attrs: { type: "button", value: "View Live" }
-        }),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "button source",
-          attrs: { type: "button", value: "View Source" }
-        })
+      _c("div", { staticClass: "description" }, [
+        _c("p", [
+          _vm._v(
+            "This Project is tic tac toe. It has an AI you can play against."
+          )
+        ])
       ])
     ])
   }
