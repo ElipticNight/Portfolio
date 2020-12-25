@@ -8,7 +8,7 @@
                 <img src="https://content.instructables.com/ORIG/FAN/BM5E/HPBPOMS8/FANBM5EHPBPOMS8.png?frame=1" alt="">
             </div>
             <div class="description">
-                This Project is tic tac toe. It has an AI you can play against.
+                <p>This Project is tic tac toe. It has an AI you can play against.</p>
             </div>
         </div>
         <div class="buttons">
@@ -28,7 +28,7 @@ export default {
         grid-template-rows: 1fr 3fr 1fr;
         width: 35vw;
         height: 35vh;
-        background-color: #0e0667;
+        background-color: #272836;
         border: 5px solid #00097a;
         .title{
             display: grid;
@@ -68,6 +68,10 @@ export default {
                 grid-column-start: 2;
             }
         }
+        h2, p{
+            color: #FC3636;
+        }
+
         &:hover{
             cursor:pointer;
             box-shadow: 0px 0px 9px 4px #FC3636;
