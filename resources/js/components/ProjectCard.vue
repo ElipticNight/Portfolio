@@ -56,10 +56,16 @@ export default {
             display: grid;
             justify-items: center;
             align-items: center;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 2fr 2fr 1fr;
             .button{
                 height: 25px;
                 width: 100px;
+            }
+            .source{
+                grid-column-start: 2;
+            }
+            .live{
+                grid-column-start: 3;
             }
         }
         &:hover{
