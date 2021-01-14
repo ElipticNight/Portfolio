@@ -12,10 +12,15 @@
         <h1>projects</h1>
         <h3><a href="/projects">View all projects.</a></h3>
         <div class="projects">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+            <tic-tac-toe></tic-tac-toe>
+        </div>
+        <h1></h1>
+    </div>
+    <hr>
+    <div class="clients-section">
+        <h1>Clients Websites</h1>
+        <h3><a href="#">View all Client Websites.</a></h3>
+        <div class="projects">
         </div>
         <h1></h1>
     </div>

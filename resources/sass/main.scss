@@ -1,14 +1,15 @@
+$colour-red-main: #FC3636;
+
 .header{
     display: flex;
     height: 7vh;
-    background-color: #0c4433;
-    border-bottom: solid 0.25vh green;
+    background-color: #272836;
     .logo{
         display: flex;
         flex: 1;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: $colour-red-main;
     }
     .filler{
         display: flex;
@@ -28,10 +29,11 @@
                 padding: 0px 35px 0px 35px;
                 align-items: center;
                 text-align: center;
-                color: white;
+                color: $colour-red-main;
                 text-decoration: none;
                 &:hover{
                     text-decoration: underline;
+                    background-color: #343543;
                 }
             }
         }
@@ -50,7 +52,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: $colour-red-main;
         h1{
             font-size: 3em;
             margin-bottom: 1em;
@@ -65,20 +67,30 @@
     align-items: center;
     h1{
         font-size: 3em;
-        color: white;
-        margin: 50px;
+        color: $colour-red-main;
+    }
+    h3{
+        margin-bottom: 50px;
     }
     .projects{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         grid-gap: 2vw 2vw;
-        .project{
-            width: 35vw;
-            height: 35vh;
-            background-color: darkblue;
-            border: 5px solid green;
-        }
+    }
+}
+
+.clients-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3em;
+        color: $colour-red-main;
+    }
+    h3{
+        margin-bottom: 50px;
     }
 }
 
@@ -93,7 +105,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: $colour-red-main;
         h1{
             font-size: 3em;
             margin-bottom: 1em;
@@ -112,7 +124,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: $colour-red-main;
         h1{
             font-size: 3em;
             margin-bottom: 1em;

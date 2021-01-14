@@ -2,12 +2,12 @@ require('./bootstrap');
 
 import Vue from 'vue'
 
-import ExampleComponent from './components/ExampleComponent'
+import TicTacToe from './components/TicTacToe'
 
 const app = new Vue({
     el: '#app',
     components: {
-        ExampleComponent
+        TicTacToe
     }
 })
 
