@@ -1,7 +1,7 @@
 <template>
     <div class="project">
         <div class="title">
-            <h2>Tic Tac Toe</h2>
+            <h2>Example Project</h2>
         </div>
         <div class="content">
             <div class="image">
