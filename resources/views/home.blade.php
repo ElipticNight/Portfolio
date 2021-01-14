@@ -17,6 +17,14 @@
         <h1></h1>
     </div>
     <hr>
+    <div class="clients-section">
+        <h1>Clients Websites</h1>
+        <h3><a href="#">View all Client Websites.</a></h3>
+        <div class="projects">
+        </div>
+        <h1></h1>
+    </div>
+    <hr>
     <div class="about-me-section">
         <div class="title">
             <h1>About me</h1>

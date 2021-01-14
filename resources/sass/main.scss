@@ -80,6 +80,20 @@ $colour-red-main: #FC3636;
     }
 }
 
+.clients-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3em;
+        color: $colour-red-main;
+    }
+    h3{
+        margin-bottom: 50px;
+    }
+}
+
 .about-me-section{
     height: 500px;
     display: flex;
