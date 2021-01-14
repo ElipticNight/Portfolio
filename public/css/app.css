@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  height: 7vh;
+  background-color: #272836;
+}
+
+.header .logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: #FC3636;
+}
+
+.header .logo a {
+  color: #FC3636;
+  text-decoration: none;
+}
+
+.header .filler {
+  display: flex;
+  flex: 1;
+}
+
+.header .navbar {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.header .navbar li a {
+  display: flex;
+  height: 100%;
+  padding: 0px 35px 0px 35px;
+  align-items: center;
+  text-align: center;
+  color: #FC3636;
+  text-decoration: none;
+}
+
+.header .navbar li a:hover {
+  text-decoration: underline;
+  background-color: #343543;
+}
+
+.hero-banner {
+  height: 92.75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner .title {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FC3636;
+}
+
+.hero-banner .title h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-section h1 {
+  font-size: 3em;
+  color: #FC3636;
+}
+
+.projects-section h3 {
+  margin-bottom: 50px;
+}
+
+.projects-section .projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 2vw 2vw;
+}
+
+.clients-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-section h1 {
+  font-size: 3em;
+  color: #FC3636;
+}
+
+.clients-section h3 {
+  margin-bottom: 50px;
+  color: #FC3636;
+}
+
+.about-me-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-section .title {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FC3636;
+}
+
+.about-me-section .title h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.contact-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .title {
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FC3636;
+}
+
+.contact-section .title h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1b29;
+}
+

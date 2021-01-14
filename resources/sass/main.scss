@@ -1,0 +1,138 @@
+$colour-red-main: #FC3636;
+
+.header{
+    display: flex;
+    height: 7vh;
+    background-color: #272836;
+    .logo{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        color: $colour-red-main;
+        a {
+            color: $colour-red-main;
+            text-decoration: none;
+        }
+    }
+    .filler{
+        display: flex;
+        flex: 1;
+    }
+    .navbar{
+        display: flex;
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+        list-style-type: none;
+        li{
+            a{
+                display: flex;
+                height: 100%;
+                padding: 0px 35px 0px 35px;
+                align-items: center;
+                text-align: center;
+                color: $colour-red-main;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                    background-color: #343543;
+                }
+            }
+        }
+    }
+}
+
+.hero-banner{
+    height: 92.75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: $colour-red-main;
+        h1{
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3em;
+        color: $colour-red-main;
+    }
+    h3{
+        margin-bottom: 50px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-gap: 2vw 2vw;
+    }
+}
+
+.clients-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3em;
+        color: $colour-red-main;
+    }
+    h3{
+        margin-bottom: 50px;
+        color: $colour-red-main;
+    }
+}
+
+.about-me-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    .title{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: $colour-red-main;
+        h1{
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.contact-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    .title{
+        height: 40%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: $colour-red-main;
+        h1{
+            font-size: 3em;
+            margin-bottom: 1em;
+        }
+    }
+}
