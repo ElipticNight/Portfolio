@@ -1,7 +1,7 @@
 <header>
     <div class="header">
         <div class="logo">
-            Aidan Byrne
+            <a href="/">Aidan Byrne</a>
         </div>
         <div class="filler"></div>
         <ul class="navbar">
