@@ -12,7 +12,7 @@
         <h1>projects</h1>
         <h3>No Projects Yet</h3>
         <div class="projects">
-            <tic-tac-toe></tic-tac-toe>
+            <!-- <tic-tac-toe></tic-tac-toe> -->
         </div>
         <h1></h1>
     </div>

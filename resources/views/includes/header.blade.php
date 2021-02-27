@@ -9,5 +9,6 @@
             <li><a href="/about">About me</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
+        <div class="burger"></div>
     </div>
 </header>
