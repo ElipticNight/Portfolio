@@ -72,10 +72,16 @@
     flex-direction: column;
     background-color: #272836;
     transform: translateX(100%);
+    transition: transform 0.5s ease-in;
   }
 
-  .burger {
+  .header .burger {
     display: block;
+    cursor: pointer;
+  }
+
+  .header .navbar-active {
+    transform: translateX(0%);
   }
 }
 

@@ -59,18 +59,26 @@
   body {
     overflow-x: hidden;
   }
-  
-  .header .navbar {
-    position: absolute;
-    right: 0px;
-    height: 93vh;
-    top: 7vh;
-    flex-direction: column;
-    background-color: #272836;
-    transform: translateX(100%);
-  }
 
-  .burger {
-    display: block;
+  .header {
+    .navbar {
+      position: absolute;
+      right: 0px;
+      height: 93vh;
+      top: 7vh;
+      flex-direction: column;
+      background-color: #272836;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+
+    .navbar-active {
+      transform: translateX(0%);
+    }
   }
 }
